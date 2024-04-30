@@ -1,0 +1,215 @@
+all_years\2017\МГУ\Факультет биоинженерии и биоинформатики\Биоинженерия и биоинформатика (06.05.01)\20170802_index.html
+ 12 columns passed, passed data had 15 columns
+
+all_years\2017\МГУ\Факультет психологии\Психология служебной деятельности (37.05.02)\20170801_index.html
+ 12 columns passed, passed data had 14 columns
+
+all_years\2017\МГУ\Факультет фундаментальной медицины\Лечебное дело (31.05.01)\20170821_index.html
+ 12 columns passed, passed data had 15 columns
+
+all_years\2017\МГУ\Факультет фундаментальной медицины\Фармация (33.05.01)\20170801_index.html
+ 12 columns passed, passed data had 15 columns
+
+all_years\2017\МГУ\Физический факультет\Астрономия (03.05.01)\20170801_index.html
+ 12 columns passed, passed data had 14 columns
+
+all_years\2017\РГУНГ\б ф\Нефтегазовое дело (21.03.01) (ВУС)\20170811_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2017\РГУНГ\б ф\Химическая технология (18.03.01) (ВУС)\20170811_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\МГППУ\-\Организация работы с молодежью (39.03.03) (-)\20180927_index.html
+ 12 columns passed, passed data had 13 columns
+
+all_years\2018\МГПУ\Институт естествознания и спортивных технологий\Педагогическое образование (44.03.01) (Физическая культура)\20180806_index.html
+ 12 columns passed, passed data had 13 columns
+
+all_years\2018\МГУ\Высшая школа государственного аудита\Юриспруденция (40.03.01)\20180728_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\МИЭТ\-\Инфокоммуникационные технологии и системы связи (11.03.02) (Сети и устройства инфокоммуникаций)\20180718_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\МИЭТ\-\Инфокоммуникационные технологии и системы связи (11.03.02) (Устройства инфокоммуникаций и сети)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\МИЭТ\-\Радиотехника (11.03.01) (Проектирование радиоинформационных систем)\20180729_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\МИЭТ\-\Радиотехника (11.03.01) (Эксплуатация и испытания радиоинформационных систем)\20180718_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\Московский Политех\-\Инженерные методы управления качеством (27.03.02.01)\20180904_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\Московский Политех\-\Машины и технологии обработки материалов давлением в метизных производствах (15.03.01.02)\20180904_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\МЭИ\ИнЭИ\Прикладная информатика (09.03.03)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РГГУ\-\Дизайн (54.03.01)\20180815_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РТУ МИРЭА\РТС\Конструирование и технологии электронных средств (11.03.03)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РХТУ\-\Менеджмент (38.03.02)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Гостинично-ресторанной, туристической и спортивной индустрии\Гостиничное дело (43.03.03)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Гостинично-ресторанной, туристической и спортивной индустрии\Технологические машины и оборудование (15.03.02)\20180911_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Гостинично-ресторанной, туристической и спортивной индустрии\Технология продукции и организация общественного питания (19.03.04)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Маркетинга\Менеджмент (38.03.02)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Математической экономики, статистики и информатики\Математическое обеспечение и администрирование информационных систем (02.03.03)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Математической экономики, статистики и информатики\Экономика (38.03.01)\20180911_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Международная школа бизнеса и мировой экономики\Экономика (38.03.01)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Менеджмент\  (38.03.02)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Финансовый\Экономика (38.03.01)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Экономики и права\Политология (41.03.04)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Экономики и права\Экономическая безопасность (38.05.01)\20180911_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Экономики торговли и товароведения\Таможенное дело (38.05.02)\20180807_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Экономики торговли и товароведения\Товароведение (38.03.07)\20180911_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\РЭА\Экономики торговли и товароведения\Торговое дело (38.03.06)\20180911_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\СПбГУАП\Институт аэрокосмических приборов и систем\Применение и эксплуатация автоматизированных систем специального назначения (09.05.01) (Автоматизированные системы обработки информации и управления)\20180815_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\СПбГУАП\Институт военного образования\Метрологическое обеспечение вооружения и военной техники (27.05.02 (Эксплуатация средств измерений военного назначения и их поверка)\20180815_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\СПбГУАП\Институт военного образования\Техническая эксплуатация и восстановление электросистем и пилотажно-навигационных комплексов боевых летательных аппаратов (25.05.02) (Общая направленность)\20180809_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\СПбГУАП\Институт вычислительных систем и программирования\Математическое обеспечение и администрирование информационных систем (02.03.03) (Администрирование информационных систем)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\СПбПУ\Институт компьютерных наук и технологий\Приборостроение (12.03.01)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\СПбПУ\Институт промышленного менеджмента, экономики и торговли\Гостиничное дело (43.03.03)\20180827_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\СПбПУ\Институт промышленного менеджмента, экономики и торговли\Сервис (43.03.01)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2018\СПбПУ\Гуманитарный институт\Издательское дело (42.03.03)\20180814_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\МГУ\Факультет психологии\Клиническая психология (37.05.01)\20190820_index.html
+ 12 columns passed, passed data had 14 columns
+
+all_years\2019\МГУ\Факультет фундаментальной медицины\Лечебное дело (31.05.01)\20190820_index.html
+ 12 columns passed, passed data had 15 columns
+
+all_years\2019\МГУ\Физический факультет\Астрономия (03.05.01)\20190831_index.html
+ 12 columns passed, passed data had 14 columns
+
+all_years\2019\МГУ\Химический факультет\Фундаментальная и прикладная химия (04.05.01)\20190820_index.html
+ 12 columns passed, passed data had 15 columns
+
+all_years\2019\МГУ\Факультет биоинженерии и биоинформатики\Биоинженерия и биоинформатика (06.05.01)\20190820_index.html
+ 12 columns passed, passed data had 15 columns
+
+all_years\2019\МГУ\Факультет фундаментальной физико-химической инженерии\Фундаментальная и прикладная химия (04.05.01)\20190821_index.html
+ 12 columns passed, passed data had 15 columns
+
+all_years\2019\МИЭТ\-\Инфокоммуникационные технологии и системы связи (11.03.02) (Сети и устройства инфокоммуникаций)\20190828_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\МИЭТ\-\Инфокоммуникационные технологии и системы связи (11.03.02) (Устройства инфокоммуникаций и сети)\20190821_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\МИЭТ\-\Радиотехника (11.03.01) (Проектирование радиоинформационных систем)\20190821_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\МИЭТ\-\Радиотехника (11.03.01) (Эксплуатация и испытания радиоинформационных систем)\20190830_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\МСХА\Механики и энергетики имени В.П.Горячкина\Наземные транспортно-технологические комплексы (23.03.02)\20190821_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\ПМГМУ им. Сеченова\-\Информационные системы и технологии (09.03.02) (Целевое)\20190914_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\ПМГМУ им. Сеченова\-\Клиническая психология (37.05.01) (Целевое)\20190914_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\ПМГМУ им. Сеченова\-\Материаловедение и технологии материалов (22.03.01) (Целевое)\20190914_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\ПМГМУ им. Сеченова\-\Медицинская биофизика (30.05.02) (Целевое)\20190914_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\ПМГМУ им. Сеченова\-\Механика и математическое моделирование (01.03.03) (Целевое)\20190914_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\ПМГМУ им. Сеченова\-\Сестринское дело (34.03.01) (Целевое)\20190902_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\РГГУ\-\Документоведение и архивоведение (46.03.02)\20190820_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\РГГУ\-\Документоведение и архивоведение (46.03.02) (профили ФДиТА)\20190901_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\РГПУ им. Герцена\-\Педагогическое образование (44.03.01) (Филологическое образование)\20190902_index.html
+ 13 columns passed, passed data had 14 columns
+
+all_years\2019\РГПУ им. Герцена\-\Лингвистика (45.03.02) (Теория и методика преподавания иностранных языков и культур)\20190731_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\РГПУ им. Герцена\-\Педагогическое образование (44.03.01) (Музыкальное образование (в области музыкальноинструментального искусства))\20190731_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\РГПУ им. Герцена\-\Педагогическое образование (44.03.01) (Художественное образование (в области театрального искусства))\20190901_index.html
+ 13 columns passed, passed data had 14 columns
+
+all_years\2019\РГПУ им. Герцена\-\Специальное (дефектологическое) образование (44.03.03) (Олигофренопедагогика (Образование детей с интеллектуальной недостаточностью))\20190731_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\РГПУ им. Герцена\-\Специальное (дефектологическое) образование (44.03.03) (Специальная психология (Психологическое сопровождение образования детей с проблемами в развитии))\20190731_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\РГПУ им. Герцена\-\Клиническая психология (37.05.01) (Клинико-психологическая помощь ребенку и семье)\20190729_index.html
+ 13 columns passed, passed data had 14 columns
+
+all_years\2019\РГПУ им. Герцена\-\Психология (37.03.01) (Психология)\20190925_index.html
+ 13 columns passed, passed data had 14 columns
+
+all_years\2019\РНИМУ им. Пирогова\-\Социальная работа (39.03.02) (Целевое)\20190807_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\РТУ МИРЭА\РТС\Конструирование и технологии электронных средств (11.03.03)\20190828_index.html
+ 'NoneType' object has no attribute 'find_all'
+
+all_years\2019\СПбГПМУ\-\Сестринское дело (34.03.01) (Целевое)\20190914_index.html
+ 'NoneType' object has no attribute 'find_all'
