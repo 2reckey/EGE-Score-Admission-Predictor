@@ -38,41 +38,7 @@ def process_all_student_files(root_folder):
                         "BVI": general_df['БВИ'].astype(str)[0].split("/")[-1]
                     })
 
-                    df = df.sort_values(by="Score", ascending=False)
-                    df['q90'] = df['Avg_score'].quantile(0.9)
-                    df['q80'] = df['Avg_score'].quantile(0.8)
-                    df['q75'] = df['Avg_score'].quantile(0.75)
-                    df['q70'] = df['Avg_score'].quantile(0.7)
-                    df['q65'] = df['Avg_score'].quantile(0.65)
-                    df['q60'] = df['Avg_score'].quantile(0.6)
-                    df['q55'] = df['Avg_score'].quantile(0.55)
-                    df['q50'] = df['Avg_score'].quantile(0.5)
-                    df['q40'] = df['Avg_score'].quantile(0.4)
-                    df['q30'] = df['Avg_score'].quantile(0.3)
-                    df['q20'] = df['Avg_score'].quantile(0.2)
-                    df['q10'] = df['Avg_score'].quantile(0.1)
-
-                    df['q25_by_1Q'] = df['Avg_score'][:quota].quantile(0.25)
-
-                    df['q25_by_2Q'] = df['Avg_score'][:2*quota].quantile(0.25)
-
-                    df['q25_by_3Q'] = df['Avg_score'][:3*quota].quantile(0.25)
-
-                    df['q25_by_4Q'] = df['Avg_score'][:4*quota].quantile(0.25)
-
-                    df['q25_by_5Q'] = df['Avg_score'][:5*quota].quantile(0.25)
-
-                    df['q25_by_6Q'] = df['Avg_score'][:6*quota].quantile(0.25)
-
-                    df['q25_by_7Q'] = df['Avg_score'][:7*quota].quantile(0.25)
-
-                    df['q25_by_8Q'] = df['Avg_score'][:8*quota].quantile(0.25)
-
-                    df['q25_by_9Q'] = df['Avg_score'][:9*quota].quantile(0.25)
-
-                    df['q25_by_10Q'] = df['Avg_score'][:10*quota].quantile(0.25)
-
-                    df['Is_pass'] = df['Score'] >= pass_score
+                    df = process_data(df, quota, pass_score)
 
                     all_cnt += df.shape[0]
 
@@ -82,6 +48,45 @@ def process_all_student_files(root_folder):
 
     all_data = pd.concat(all_data_frames, ignore_index=True)
     all_data.to_csv("year.csv", index=False)
+
+def process_data(df, quota, pass_score):
+    df = df.sort_values(by="Score", ascending=False)
+    df['q90'] = df['Avg_score'].quantile(0.9)
+    df['q80'] = df['Avg_score'].quantile(0.8)
+    df['q75'] = df['Avg_score'].quantile(0.75)
+    df['q70'] = df['Avg_score'].quantile(0.7)
+    df['q65'] = df['Avg_score'].quantile(0.65)
+    df['q60'] = df['Avg_score'].quantile(0.6)
+    df['q55'] = df['Avg_score'].quantile(0.55)
+    df['q50'] = df['Avg_score'].quantile(0.5)
+    df['q40'] = df['Avg_score'].quantile(0.4)
+    df['q30'] = df['Avg_score'].quantile(0.3)
+    df['q20'] = df['Avg_score'].quantile(0.2)
+    df['q10'] = df['Avg_score'].quantile(0.1)
+
+    df['q25_by_1Q'] = df['Avg_score'][:quota].quantile(0.25)
+
+    df['q25_by_2Q'] = df['Avg_score'][:2*quota].quantile(0.25)
+
+    df['q25_by_3Q'] = df['Avg_score'][:3*quota].quantile(0.25)
+
+    df['q25_by_4Q'] = df['Avg_score'][:4*quota].quantile(0.25)
+
+    df['q25_by_5Q'] = df['Avg_score'][:5*quota].quantile(0.25)
+
+    df['q25_by_6Q'] = df['Avg_score'][:6*quota].quantile(0.25)
+
+    df['q25_by_7Q'] = df['Avg_score'][:7*quota].quantile(0.25)
+
+    df['q25_by_8Q'] = df['Avg_score'][:8*quota].quantile(0.25)
+
+    df['q25_by_9Q'] = df['Avg_score'][:9*quota].quantile(0.25)
+
+    df['q25_by_10Q'] = df['Avg_score'][:10*quota].quantile(0.25)
+
+    df['Is_pass'] = df['Score'] >= pass_score
+
+    return df
 
 root = "all_years"
 process_all_student_files(root)
