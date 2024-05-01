@@ -34,8 +34,9 @@ def process_all_student_files(root_folder):
                         "Num_subjects": general_df['Количество Предметов'][0],
                         "Quota": general_df['КЦП'][0],
                         "All_app": general_df['Заявлений'][0],
-                        "Orig_app": general_df['Аттестатов'][0],
-                        "BVI": general_df['БВИ'].astype(str)[0].split("/")[-1]
+                        "Orig_all": general_df['Аттестатов'][0],
+                        "BVI": general_df['БВИ'].astype(str)[0].split("/")[-1],
+                        "Orig_above": student_df["№*"]
                     })
 
                     df = process_data(df, quota, pass_score)
@@ -47,7 +48,7 @@ def process_all_student_files(root_folder):
                     all_data_frames.append(df)
 
     all_data = pd.concat(all_data_frames, ignore_index=True)
-    all_data.to_csv("year.csv", index=False)
+    all_data.to_csv("all_data.csv", index=False)
 
 def process_data(df, quota, pass_score):
 
