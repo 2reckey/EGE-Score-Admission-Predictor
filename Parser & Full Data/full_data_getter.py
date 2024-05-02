@@ -18,7 +18,7 @@ def process_all_student_files(root_folder):
 
                     student_df = pd.read_excel(student_path)
                     student_df.rename(columns={'Тип поступления': 'Тип', 'СНИЛС': 'ФИО'}, inplace=True)
-                    student_df = student_df[(student_df['Тип'].str.contains("ОК")) & (student_df['Сумма'] > 100)]
+                    student_df = student_df[(student_df['Тип'].str.contains("ОК")) & (student_df['Сумма'] > 100) & (student_df['Тип'] != "ОК [К]")]
 
                     pass_score = general_df['Проходной балл'][0]
                     quota = general_df['КЦП'][0]
