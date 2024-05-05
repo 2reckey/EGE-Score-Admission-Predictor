@@ -67,15 +67,15 @@ def process_data(df, quota, pass_score):
     df['q10'] = df['Avg_score'].quantile(0.1)
 
     df['q25_by_1Q'] = df['Avg_score'][:quota].quantile(0.25)
-    df['q25_by_2Q'] = df['Avg_score'][:2*quota].quantile(0.25)
-    df['q25_by_3Q'] = df['Avg_score'][:3*quota].quantile(0.25)
-    df['q25_by_4Q'] = df['Avg_score'][:4*quota].quantile(0.25)
-    df['q25_by_5Q'] = df['Avg_score'][:5*quota].quantile(0.25)
-    df['q25_by_6Q'] = df['Avg_score'][:6*quota].quantile(0.25)
-    df['q25_by_7Q'] = df['Avg_score'][:7*quota].quantile(0.25)
-    df['q25_by_8Q'] = df['Avg_score'][:8*quota].quantile(0.25)
-    df['q25_by_9Q'] = df['Avg_score'][:9*quota].quantile(0.25)
-    df['q25_by_10Q'] = df['Avg_score'][:10*quota].quantile(0.25)
+    df['q25_by_2Q'] = df['Avg_score'][quota:2*quota].quantile(0.25)
+    df['q25_by_3Q'] = df['Avg_score'][2*quota:3*quota].quantile(0.25)
+    df['q25_by_4Q'] = df['Avg_score'][3*quota:4*quota].quantile(0.25)
+    df['q25_by_5Q'] = df['Avg_score'][4*quota:5*quota].quantile(0.25)
+    df['q25_by_6Q'] = df['Avg_score'][5*quota:6*quota].quantile(0.25)
+    df['q25_by_7Q'] = df['Avg_score'][6*quota:7*quota].quantile(0.25)
+    df['q25_by_8Q'] = df['Avg_score'][7*quota:8*quota].quantile(0.25)
+    df['q25_by_9Q'] = df['Avg_score'][8*quota:9*quota].quantile(0.25)
+    df['q25_by_10Q'] = df['Avg_score'][9*quota:10*quota].quantile(0.25)
 
     df['Is_pass'] = df['Score'] >= pass_score
 
