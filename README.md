@@ -58,5 +58,5 @@ F1: 0.8588076863313824
 ![lgb_model_shap](https://github.com/2reckey/EGE_Score_Admission_Predictor/blob/main/Stats%20%26%20Prediction%20Model/Assets/Shap/LightGBM_Shap.png)
 
 ---
-### [График зависимостей предсказания модели от баллов __ЕГЭ__ и оригиналов над человеком](https://github.com/2reckey/EGE_Score_Admission_Predictor/tree/main/Stats%20%26%20Prediction%20Model/Assets)
+### [График зависимостей предсказания модели от `Score` и `Orig_above`](https://github.com/2reckey/EGE_Score_Admission_Predictor/tree/main/Stats%20%26%20Prediction%20Model/Assets)
 ![plot](https://github.com/2reckey/EGE_Score_Admission_Predictor/blob/main/Stats%20%26%20Prediction%20Model/Assets/Test/2018%20-%20%D0%A0%D0%A2%D0%A3%20%D0%9C%D0%98%D0%A0%D0%AD%D0%90%20-%20%D0%98%D0%A2%20-%20%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%B8%D1%8F%20(09.03.04).png)
